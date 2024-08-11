@@ -2,90 +2,117 @@
     margin: 0;
     padding: 0;
 }
-
+header{
+    background: black;
+}
 nav{
-    background-color: #93B1A6;
+    padding:.5rem 0;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
 }
 
 .logo{
-    width: 3rem;
-    margin-left: 1rem;
-}
+    width: 4rem;
 
+}
 .mid{
     display: flex;
-    gap: .5rem;
 
 }
-
 
 a{
     text-decoration: none;
     color: white;
+}
+
+a:hover{
+    color: aqua;
     cursor: pointer;
 }
 
 .ham{
-    display: none;
-    position: absolute;
-    z-index: 100;
-    right: 2rem;
-    /* margin-right: 2rem; */
-     padding: 0;
-     font-size: 1.5rem;
-     /* mix-blend-mode: multiply; */
-     border: none;
-     height: .5rem;
-     color: white;
-     background: none;
-     top: .5rem;
+    padding: 0;
+    font-size: 2rem;
+    border: none;
+    color: white;
+    background: none;
+    margin-right: 1.5rem;
 }
-.right{
+
+/* About section starts from here */
+.about{
+    background-color: #5C8374;
+}
+
+.about--content__heading{
+    font-family: "Signika", sans-serif;
+    letter-spacing: 2px;
+}
+.about--content__para{
+    font-family: "Signika", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.about--content__image{
     border: 2px solid black;
-    background-color: #040D12;
-    position: relative;
-    /* z-index: 0; */
-    top: 0;
-    /* padding:0 10rem ; */
-    width: 40vw;
-    min-height: 70vh;
 }
 
-
+.gymImage{
+    position: absolute;
+}
 
 /* Media quiery starts from here */
-
-@media (max-width: 750px){
-
-    .ham{
-        display: block;
-    }
-
+@media(max-width:700px){
     .mid{
-        display: none;
-        background-color: black;
-        position: absolute;
-        top:3rem;
-        text-align: center;
-        left: 0;
-        right: 0;
-        flex-direction: column;
+    display: none;
+      position: absolute;
+      background-color: rgb(0, 0, 0);
+      gap: 1rem;
+      flex-direction: column;
+      right: 0;
+      left: 0;
+      top: 4rem;
+      text-align: center;
+      padding: 1rem 0;
 
-    
     }
-    .mid.show{
+
+   .mid.show{
         display: flex;
     }
 
-    a:hover{
-        color: #93B1A6;
+
+    /* about section starts from here */
+    .about--content{
+        text-align: center;
+        padding: 1.5rem 3rem;
+        padding-bottom: 5rem;
+    }
+    .about--top{
+        padding-top: 1rem;
     }
 
-    .gym1{
-        width: 15rem;
+    .btn{
+        padding: .5rem 1.5rem;
+        border-radius: 11px;
+        color: white;
+        background: #000000;
+        font-family: "Signika", sans-serif;
+    }
+
+    .about--content__image{
+        border: 2px solid black;
+        background: #040D12;
         
+    }
+    .gymImage{
+        width:60vw;
+        z-index: 100;
+        top: 60%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
     }
 }
