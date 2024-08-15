@@ -65,7 +65,12 @@ a:hover{
 
 /* Media quiery starts from here */
 
-
+@media (max-width:460px){
+    .gymImage{
+        margin-top: 4rem;
+        /* border: 2px solid red; */
+    }
+}
 
 @media(max-width:700px){
     .mid{
@@ -111,19 +116,21 @@ a:hover{
         /* padding-top: rem; */
         display: flex;
         justify-content: center;
-        padding-top: 14rem;
+        padding-top: 15rem;
         /* align-items: center;  */
     }
     
     .gymImage{
         position: absolute;
-        top: 20rem;
+        top: 15rem;
         width: 30vh;
         z-index: 100;
     }
 
     }
 
+    
+/* 
     @media (max-width:332px) {
         .about--content__image{
             padding-top: 14rem;
@@ -160,4 +167,4 @@ a:hover{
             top:18rem
         }
     }
-   
+    */
