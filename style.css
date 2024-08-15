@@ -129,16 +129,16 @@ a:hover{
             padding-top: 14rem;
         }
         .gymImage{
-            top:23rem
+            top:20rem
         }
     }
 
     @media (min-width:333px) and (max-width:444px){
         .about--content__image{
-            padding-top: 16rem;
+            padding-top: 15rem;
         }
         .gymImage{
-            top:20rem
+            top:18rem
         }
     }
    
@@ -157,7 +157,7 @@ a:hover{
             padding-top:17rem;
         }
         .gymImage{
-            top:21rem
+            top:19rem
         }
     }
    
