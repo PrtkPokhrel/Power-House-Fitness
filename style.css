@@ -122,7 +122,8 @@ a:hover{
     
     .gymImage{
         position: absolute;
-        top: 15rem;
+        top: 2rem;
+        margin-top: 15rem;
         width: 30vh;
         z-index: 100;
     }
