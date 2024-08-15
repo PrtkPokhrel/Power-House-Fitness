@@ -41,7 +41,7 @@ a:hover{
 }
 
 /* About section starts from here */
-.about{
+.about--content{
     background-color: #5C8374;
 }
 
@@ -64,6 +64,9 @@ a:hover{
 }
 
 /* Media quiery starts from here */
+
+
+
 @media(max-width:700px){
     .mid{
     display: none;
@@ -102,17 +105,59 @@ a:hover{
         font-family: "Signika", sans-serif;
     }
 
+    
     .about--content__image{
-        border: 2px solid black;
         background: #040D12;
-        
+        /* padding-top: rem; */
+        display: flex;
+        justify-content: center;
+        padding-top: 14rem;
+        /* align-items: center;  */
     }
+    
     .gymImage{
-        width:60vw;
+        position: absolute;
+        top: 20rem;
+        width: 30vh;
         z-index: 100;
-        top: 60%;
-        left: 50%;
-        right: 50%;
-        transform: translate(-50%, -50%);
     }
-}
+
+    }
+
+    @media (max-width:332px) {
+        .about--content__image{
+            padding-top: 14rem;
+        }
+        .gymImage{
+            top:23rem
+        }
+    }
+
+    @media (min-width:333px) and (max-width:444px){
+        .about--content__image{
+            padding-top: 15rem;
+        }
+        .gymImage{
+            top:18rem
+        }
+    }
+   
+
+    @media (min-width:445px) and (max-width:600px){
+
+        .about--content{
+            padding:2rem 3rem;
+            padding-bottom: 4rem;
+        }
+        .about--content__para{
+            margin: 1rem 0;
+            font-size: 1rem;
+        }
+        .about--content__image{
+            padding-top:16rem;
+        }
+        .gymImage{
+            top:19rem
+        }
+    }
+   
