@@ -39,38 +39,28 @@ a:hover{
     background: none;
     margin-right: 1.5rem;
 }
+ 
 
-/* About section starts from here */
-.about--content{
-    background-color: #5C8374;
-}
 
-.about--content__heading{
-    font-family: "Signika", sans-serif;
-    letter-spacing: 2px;
-}
-.about--content__para{
-    font-family: "Signika", sans-serif;
-    font-weight: 200;
-    letter-spacing: 1px;
+.section1{
+    display: grid;
+    background-color: #93B1A6;
 }
 
 .about--content__image{
-    border: 2px solid black;
+    background-color: black;
+    position: relative;
+    text-align: center;
 }
 
+.about--content__btn{
+    text-align: center;
+}
 .gymImage{
-    position: absolute;
+    
 }
-
 /* Media quiery starts from here */
 
-@media (max-width:460px){
-    .gymImage{
-        margin-top: 4rem;
-        /* border: 2px solid red; */
-    }
-}
 
 @media(max-width:700px){
     .mid{
@@ -91,81 +81,37 @@ a:hover{
         display: flex;
     }
 
+    /* About section starts from here */
 
-    /* about section starts from here */
-    .about--content{
+    .about--content__heading{
+        font-size: 1.5rem;
         text-align: center;
-        padding: 1.5rem 3rem;
-        padding-bottom: 5rem;
-    }
-    .about--top{
-        padding-top: 1rem;
+        margin-top: 1.5rem;
     }
 
-    .btn{
-        padding: .5rem 1.5rem;
+    .about--content__para{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: .5rem;
+        
+    }
+
+    .btn-primary{
+        margin-top: 1rem;
+        padding: .7rem;
         border-radius: 11px;
+        font-size: .9rem;
+        background-color: black;
         color: white;
-        background: #000000;
-        font-family: "Signika", sans-serif;
+
     }
 
-    
     .about--content__image{
-        background: #040D12;
-        /* padding-top: rem; */
-        display: flex;
-        justify-content: center;
-        padding-top: 15rem;
-        /* align-items: center;  */
+        margin-top: 7rem;
     }
-    
+
     .gymImage{
-        position: absolute;
-        top: 2rem;
-        margin-top: 15rem;
-        width: 30vh;
-        z-index: 100;
+        width: 100%;
+        margin-top: -8rem;
     }
-
-    }
-
-    
-/* 
-    @media (max-width:332px) {
-        .about--content__image{
-            padding-top: 14rem;
-        }
-        .gymImage{
-            top:20rem
-        }
-    }
-
-    @media (min-width:333px) and (max-width:444px){
-        .about--content__image{
-            padding-top: 15rem;
-        }
-        .gymImage{
-            top:18rem
-        }
-    }
-   
-
-    @media (min-width:445px) and (max-width:600px){
-
-        .about--content{
-            padding:2rem 3rem;
-            padding-bottom: 4rem;
-        }
-        .about--content__para{
-            margin: 1rem 0;
-            font-size: 1rem;
-        }
-        .about--content__image{
-            padding-top:21rem;
-        }
-        .gymImage{
-            top:18rem
-        }
-    }
-    */
+}
