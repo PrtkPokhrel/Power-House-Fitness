@@ -166,7 +166,6 @@ a:hover{
         padding:.5rem 1.8rem;
         background-color: #183D3D;
         color: white;
-        border: none;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         font-family: "Signika",sans-serif;
@@ -196,10 +195,6 @@ a:hover{
     border: 2px solid black;
     margin-top: 3rem;
     width: 90%;
-  }
-
-  .admission{
-    
   }
 
     
