@@ -1,0 +1,152 @@
+<!-- 780 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Power House Fitness</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- font-family: "Signika", sans-serif -->
+        <!-- 1 rem is equals to 16px -->
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!-- Top part of nav -->
+                <div class="nav_top">
+    
+    
+    
+                    <div class="logoDiv">
+                        <img src="/Assets/logo.png" alt="" class="logo">
+                        <img src="/Assets/logo-removebg-preview.png" alt="" class="logo2">
+                    </div>
+                    <div class="navigation">
+                        <div class="aDivs">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Plans</a>
+                            <a href="#">Review</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+    
+    
+                    <div class="nav_right">
+                        <div class="joinDiv">
+                            <button class="btn btn-primary"><a style="color: white;" href="#"></a>Join Us</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bottom part of navigation -->
+               
+                    <div class="nav_bottom">
+                        <div class="nav_bottom_left">
+                            <div class="nav_heading"> <h1>Discover your Strength</h1> </div>
+                            <div class="nav_para"><p>Transform your body, Transform your life</p></div>
+                            <div class="nav_button"><button class="btn btn-secondary">Get Started</button></div>
+                            <div class="nav_links">  </div>
+                        </div>
+    
+    
+                        <div class="nav_bottom_right">
+                            <img class="gym" src="/Assets/gym1.png" alt="">
+                        </div>
+                    </div>
+                 
+            </nav>
+
+        <!-- Pc version of section 1 -->
+         
+
+       
+
+        <!-- Pricing section starts here -->
+        <section class="pricing">
+            <div class="pricing--headings">
+                <h3 class="pricingPlans">Pricing Plans</h3>
+                <h2 class="joinToday">Join Today</h2>
+            </div>
+            <div class="modeM_Y">
+                <button class="btn_1" onclick="monthly()">Monthly</button>
+                <button class="btn_2" onclick="yearly()">Yearly</button>
+            </div>
+
+            <div class="pricingContainer">
+
+
+                <div class="monthly">
+
+                    <div class="monthlyContainer">
+                        <ul class="monthlyUl">
+                            <li class="monthlyPlan">Monthly Plan</li>
+                            <li class="monthlyFees">
+                                <h3 class="cash">2000</h3>
+                                <h4 class="time">/year</h4>
+                            </li>
+                            <li class="monthlyInfo">1 time admission fee for new member</li>
+                            <button class="btnchoosePlanMonthly btns">Choose Plan</button>
+                            
+                        </ul>
+                        
+                    </div>
+                    <div class="quaterlyContainer">
+                        <ul class="monthlyUl">
+                            <li class="monthlyPlan">Quaterly Plan</li>
+                            <li class="monthlyFees">
+                                <h3 class="cash">2000</h3>
+                                <h4 class="time">/year</h4>
+                            </li>
+                            <li class="monthlyInfo">1 time admission fee for new member</li>
+                            <button class="btnchoosePlanMonthly btns">Choose Plan</button>
+                            
+                        </ul>
+                        
+                    </div>
+                    <div class="semi_quaterlyContainer">
+                        <ul class="monthlyUl">
+                            <li class="monthlyPlan">Semi Quaterly Plan</li>
+                            <li class="monthlyFees">
+                                <h3 class="cash">2000</h3>
+                                <h4 class="time">/year</h4>
+                            </li>
+                            <li class="monthlyInfo">1 time admission fee for new member</li>
+                            <button class="btnchoosePlanMonthly btns">Choose Plan</button>
+                            
+                        </ul>
+                        
+                    </div>
+                    <button class="prev" onClick=prevSlide() >&#10094</button>
+                    <button class="next" onClick=nextSlide() >&#10095 </button>
+                     
+                </div>
+                    
+
+                 
+
+                    <!-- Yearly -->
+                    <div class="yearly">
+                        <div class="yearlyContainer">
+                            <ul class="yearlyUl">
+                                <li class="yearlyPlan">Yearly Plan</li>
+                                <li class="yearlyFees">
+                                    <h3 class="cash">16000</h3>
+                                    <h4 class="time">/year</h4>
+                                </li>
+                                <li class="yearlyInfo">1 time admission fee for new member</li>
+                                <button class="btnchoosePlan btns">Choose Plan</button>
+                            </ul>
+                        </div>
+                    </div>
+            </section>
+
+
+
+            
+
+            <div class="ignore"></div>
+            <script src="Script.js"></script>
+        </body>
+    </html>

@@ -4,7 +4,7 @@
 
  
 
-@media(min-width:801px){
+@media(min-width:701px){
 
     /* Adjustments */
 
@@ -15,23 +15,6 @@
         display: none;
     }
 
-    .wave{
-        display: none;
-    }
-
-    li{
-        list-style: none;
-    }
-
-    .aboutMobile{
-        display: none;
-    }
-
-    .designLines_mobile{
-        display: none;
-
-    }
-    /* Adjustments ends here */
 
 .navigation {
     display: flex;
@@ -95,7 +78,7 @@ a{
 }
 
 
- 
+/* Nav bottom */
 
 /* Nav bottom left */
 
@@ -123,240 +106,12 @@ h1{
     top: 5.5rem;
     right: 10%;
 }
-
-/* Pricing section starts here */
-
-    .pricing--Pc{
-        background-color: #93B1A6;
-        overflow: hidden;
-    }
-    .pricing_top{
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        margin-left: 2.5rem;
-        
-    }
-
-    .pricingPlans__pc{
-        font-size: 1.5rem;
-        font-family: "Signika", sans-serif;
-        font-weight: 400;
-        opacity: 0.4;
-    }
-
-    .joinToday__pc{
-        font-family: "Signika", sans-serif;
-        font-weight: 700;
-        font-size: 3.9rem;
-        
-    }
-
-    .pricing_bottom{
-        display: flex;
-        justify-content: space-around;
-    }
-
-    /* Pricing box starts from here */
-
-    .box1,.box2,.box3,.box4{
-        display: flex;
-        flex-direction: column;
-         justify-content: space-around;
-         align-items: center;
-        border: 2px solid black;
-        background-color: #5C837480;
-        border-radius: 15px;
-        height: 20rem;
-        margin-top: 3rem;
-        box-shadow: 0 5px 10px rgba(0, 0, 0); /* Bottom shadow */
-    }
-
-    .box_heading{
-        font-size: 1.1rem;
-        font-weight: 600;
-        font-family: "Signika", sans-serif;
-        
-    }
-
-    .box_info{
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        margin-bottom: 2rem;
-    }
-
-    .box_info_li1{
-        font-size: 3rem;
-        font-weight: 600;
-        font-family: "Signika", sans-serif;
-
-    }
-
-    .box_info_li2{
-        font-weight: 600;
-        font-size: 1.1rem;
-        font-family: "Signika",sans-serif;
-        opacity: 0.9;
-    }
-
-    .box_para{
-        font-size: 1rem;
-        font-weight: 700;
-        font-family: "Signika",sans-serif;
-        text-align: center;
-    }
-
-    .box_btn{
-        width: 80%;
-        background-color: black;
-        color: white;
-        font-size: 1.3rem;
-        border-radius: 15px;
-        padding:.5rem 0;
-        font-weight: 700;
-    }
-
-    /* waves Starts from here for pc version */
-
-    .pcWaves{
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    /* About section starts here */
-
-    .about_Heading{
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 700;
-    }
-
-    /* About Section content starts here */
-
-    .about_info_container{
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-left: 5rem;
-        
-
-    }
-
-
-    .about__pc{
-        background-color: #93B1A6;
-    }
-    .about_top,.about_bottom{
-        margin-left: 3.3rem;
-        display: flex;
-        justify-content: space-between;
-    }
-   
-
-    .about_li_1,.bottom_about_li_1{
-        display: flex;
-        gap: 11px;
-        font-size: 1.5rem;
-        font-family: "Signika",sans-serif;
-        font-weight: 500;
-      
-    }
-
-    .bottom_about_li_1{
-        text-align: center;
-    }
-
-    .about_li_2,.bottom_about_li_2{
-        font-size: 1rem;
-        font-family: "Signika",sans-serif;
-        font-weight: 400;
-        margin-top: 1rem;
-        margin-left: 2rem;
-         
-       
-    }
-    .about_li_3,.bottom_about_li_3{
-        font-size: 1rem;
-        font-family: "Signika",sans-serif;
-        font-weight: 400;
-        margin-left: 2rem;
-        text-align: center;
-    }
-
-   
-  
-    /* image part of the about section */
-    .about_images{
-        display: flex;
-        flex-direction: column;
-        margin-right: 5rem;
-    }
-
-    .About2image{
-        margin-top: 3rem;
-    }
-
-    /* Main container of the about us  */
-
-    .about__pc{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    /* About us container ends here */
-
-
-    /* Footer starts here */
-
-    .footercontentsPc{
-        display: flex;
-        justify-content: space-around;
-        background-color: #93B1A6;
-        padding-top: 3rem;
-    }
-
-    .midLeft,.midRight{
-        display: flex;
-        flex-direction: column;
-    }
-
-     
-
-    .footer_p{
-        width: 32rem;
-        font-family: "Signika",sans-serif;
-        font-weight: 400;
-        font-size: 1.25rem;
-    }
-
-    .midLeft_header,.midRight_header{
-        font-family: "Signika",sans-serif;
-        color: #183D3D;
-        font-size: 2rem;
-        font-weight: 400;
-    }
-
-    .midLeft_li,.midRight_li{
-        font-family: "Signika",sans-serif;
-        font-weight: 400;
-        font-size: 1rem;
-        padding-top: 1rem;
-    }
-    
-    
-
 }
-
-
-
 
 /* Smaller Screen */
 
 
-@media(max-width:800px){
+@media(max-width:700px){
 
     /* Adjustments */
     .nav_right{
@@ -370,26 +125,6 @@ h1{
     .logo2{
         width: 4rem;
          
-    }
-
-    .pricing--Pc{
-        display: none;
-    }
-
-    .designLines{
-        display: none;
-    }
-
-    .about_info_container{
-        display: none;
-    }
-
-    .about__pc{
-        display: none;
-    }
-
-    .about_Heading{
-        display: none;
     }
 
 
@@ -419,7 +154,7 @@ h1{
     }
 
     .gym{
-        width: 20rem;
+        width: 30rem;
         margin-top: -10rem;
     }
 
@@ -644,9 +379,9 @@ h1{
     }
 
     .monthlyInfo  {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         margin: 2rem 0;
-        margin-right: 1rem;
+        text-align: center;
     }
 
     .btnchoosePlanMonthly{
@@ -661,7 +396,7 @@ h1{
         top: 50%;
         transform: translateY(-50%);
         font-size: 2rem;
-        background-color: #5C8374;
+        mix-blend-mode: multiply;
         border: none;
         cursor: pointer;
 
@@ -676,69 +411,7 @@ h1{
 
     /* Wave section starts here */
 
-    .wave{
-       display: flex;
-       flex-direction: column;
-       background-color: #93B1A6;
-       width: 100%
-    }
      
-
-    /* wave section ends here */
-
-    /* About section for mobile starts here */
-
-    .about_mobile_container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: #93B1A6;
-        padding-top: 4rem;
-    }
-
-    
-
-    .topcontent_mobile,.bottomcontent_mobile{
-        display: flex;  
-        justify-content: space-between;
-        padding-top: 2rem;
-        border: 2px solid black;
-    }
-
-
-    
-    .left_content_mobile{
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-    }
-    .about_li_1_mobile{
-        display: flex;
-        align-items: center;
-        gap: 11px;
-    }
-
-    .about_li_2_mobile{
-        margin-left: 2.3rem;
-        margin-top: 1rem;
-    }
-
-
-    /* About section ends here */
-
-    /* Mobile footer section starts here */
-
-
-    .pcFooter{
-        background-color: #93B1A6;
-    }
-
-    .footercontentsPc{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
     
     
     

@@ -1,4 +1,20 @@
 
+document.addEventListener('DOMContentLoaded', () => {
+    let ham = document.querySelector(".ham")
+    let nav = document.querySelector(".mid")
+
+
+    ham.addEventListener('click', () => {
+        nav.classList.toggle('show');
+    });
+
+    nav.addEventListener('click', () => {
+        nav.classList.toggle('show');
+    })
+});
+
+
+
 function updateButtonStyles(activeButton, inactiveButton) {
     activeButton.style.backgroundColor = "#183D3D";
     activeButton.style.color = 'white';
